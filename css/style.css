@@ -21,6 +21,7 @@ a{
     display: flex;
     flex-direction:column ;
     font-weight: 900px;
+    
 }
 .header {
 background-color: #f0f0f1;
@@ -57,32 +58,149 @@ justify-content: space-between;
 .vp li :hover{
     color: #656c74;
 }
+.active{
+    color: #656c74;
+}
 
 .container{
     height: 700px;
     background: url("../images/makou.jpg") ;
     background-size: cover;
+    
 }
 .vp-content  {
-    
+    overflow: auto;
     text-align: center;
     color: white;
+    
 }
 .vp-content p{
 padding-top: 200px;
 padding-bottom: 50px;
 }
-
 .vp-content h1{
    font-size: 50px;
     }
-
     .barre-blanche {
         height: 100px;
         background-color:rgb(232, 224, 224);
         z-index: 2;
         opacity: 0.30;
     }
+    .btn {
+        display: inline-block;
+        padding: 12px 18px;
+        font-weight: 800px;
+        
+        font-size: 14px;
+        border: 0px;
+        margin: 23px;
+    }
+    .btn-primary{
+        background:#fff;
+        color:black
+    }
+    .btn-primary:hover{
+        color:#202020;
+    }
+    image{
+        height: 20vh;
+        width: 100vw;
+    }
+    
+    .image-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        justify-content: center;
+        list-style: none;
+    }
+    .image-list li{
+        margin-top: -50px;
+        margin-right: 20px;
+    }
+    .contenu{
+
+    }
+
+    .text-elem p {
+        margin-bottom:30px;
+        padding-right:10%;
+        font-size:15.5px;
+        color:black;
+    }
+
+    .text-elem b{
+        font-weight: 100;
+    }
+
+
+     .text-elem p a strong  {
+        color:#2a90ff ;
+    }
+    .text-elem h1{
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #2a2a2a;
+    }
+
+.text{
+        padding: 100px 0px 100px 0px;
+    }
+    .contenu {
+        display: flex;
+        justify-content: center;
+        margin-left:60px;
+        width: 1150px;
+    }
+    .elem{
+        margin-left: 50px; 
+}
+.offert-elem{
+    margin:12px ;
+    height: -10px;
+}
+    .offert{
+        padding: 10rem 1rem 10rem 1rem;
+    }
+    
+    .offert-list{
+        display: flex;
+        list-style: none;
+    }
+    .offert-elem-text {
+        border: solid 0px;
+        background: #656c74;
+        height: 50%;
+        margin-top: -4px;
+    }
+    .offert-elem-text h2{
+        color: white;
+
+    }
+    .offert-elem-text p{
+        
+        color: #fff;
+        float: left;
+        
+    }
+    .offert-elem-image{
+        width: 100%;
+    }
+    
+.title{
+    text-align: center;
+
+  
+}
+
+
+
+
+
+
+
 
 
 
